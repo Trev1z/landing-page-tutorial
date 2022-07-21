@@ -1,48 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/styles/style.css" rel="stylesheet">
-    <link href="/styles/fonts.css" rel="stylesheet">
-    <link href="/styles/media.css" rel="stylesheet">
-    <title>Landing Page</title>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <header>
-        <div id="title">
-            <h1>Marketing</h1>
-            <h1>Criativo</h1>
-        </div>
+	<header>
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Vincentini<span> Advogados</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Sobre Nós</a></li>
+				<li><a href="#">Nossos Serviços</a></li>
+				<li><a href="#">Saiba mais</a></li>
+			</ul>
+			<a href="#" class="btn">Whatsapp</a>
+		</nav>
+		</div>
+	</header>
 
-        <ul>
-            <a href="#"><li>Início</li></a>
-            <a href="#"><li>Serviços</li></a>
-            <a href="#"><li>Sobre</li></a>
-            <a href="#"><li>Contato</li></a>
-            <a href="#" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
-        </ul>
-    </header>
+	<section class="master">
+		<div class="content">
+			<h1>Escritório Vincentini Advogados</h1>
+			<h3>Escritório Especializado em Adocacia Crimianal. Advogados Criminalistas que atendem em toda Grande Vitória. <span> Defendemos mais do que causas, defendemos a sua liberdade!</span></h3>
+			<h3>Contate-nos via Whatsapp</h3>
+			<a href="#" class="btn">Whatsapp</a>
 
-    <main>
-        <aside>
-            <h2><span>Inscreva-se agora</span></h2>
-            <h2>na Newslatter</h2>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
-            <form>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="E-mail">
-                <input type="submit" value="Enviar >">
-            </form>
-        </aside>
+			</div>
+		</div>
+	</div>
+    </section>
+	<!----Sessão sobre a empresa---->
+	<section class="about">
+		<div class="main">
+			<img class="image 2"src="Logo/logo/JPG - WEB/1.jpg">
+			<div class="about-text">
+				<h2>Sobre o Escritório</h2>
+				<p>O Escritório se originou a partir da vontade de um renomado e especializado Advogado Criminalista em ampliar o seu time jurídico em busca de alcançar mais resultados positivos, clientes e um atendimento cada vez mais humanizado. 
+					Com esses objetivos, o Dr. Frederico Vicentini reuniu uma equipe especializada de Advogados Criminalistas que atuam com garra e afinco na defesa dos direitos e da liberdade de todos os seus clientes. 
+					A nossa missão é ser uma equipe Especializada e imbatível em Direito Criminal e atender a todos os clientes com presteza, visando sempre o melhor resultado na defesa dos seus direitos e da sua liberdade. 
+					Somos especialistas no Tribunal do Júri, com ampla experiência na área e atuamos na defesa de qualquer crime, seja homicídio, crimes dolosos contra a vida, tráfico de drogas, entre outros. 
+					Aqui não há distinção entre crimes, pessoas ou classes, apenas a defesa dos seus direitos constituídos em lei.</p>
+			
+				<button type="button">Saber mais</button>
+			</div>
+		</div>
+	</section>
 
-        <article>
-            <img src="./components/images/77d0a7c454e658833800528e748edbe9.png" alt="mulher-roxa">
-        </article>
-    </main>
-    
+	<!-----Nossos Serviços Sessão----------->
+	<div class="service">
+		<div class="title">
+			<h2 class="text">Nossos Serviços</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Assistencia juridica Especializada</h5>
+				<div class="pra">
+					<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+					<p style="text-align: center;">
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-"></i>
+				<h5>Flagrante 24 horas</h5> 
+				<div class="pra">
+					<p>Audiência de custódia, atendimento e acompanhamento junto a delegacia em casos de flagrante em qualquer horário.</p>
+					<p style="text-align: center;">
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Tribunal do Júri</h5>
+				<div class="pra">
+					<p>Defesa frente ao Tribunal do Júri em casos de homicídio e crimes dolosos contra a vida.</p>
+					<p style="text-align: center;">
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Execução Penal </h5>
+				<div class="pra">
+					<p>acompanhar o reeducando no cumprimento correto da pena, solicitar remição, livramento condicional, progressão de regime, trabalho externo, pedidos de saída temporada, entre outros.</p>
+					<p style="text-align: center;">
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Tráfico de Drogas </h5>
+				<div class="pra">
+					<p>atuação em processos envolvendo tráfico de drogas e outros crimes.</p>
+					<p style="text-align: center;">
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!------Contato----->
+	<div class="contact-me">
+		<p>Entre agora em contato para obter a assistencia juridica para sua causa</p>
+		<a class="button-two" href="#">Contatar</a>
+	</div>
+
+	<!------footer--------->
+	<footer>
+		<p>Frederico Vincenti</p>
+		<p>Para mais informações contate-nos por Facebook, Instagram ou Whatsapp </p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-whatsapp"></i></a>
+		</div>
+		<p class="end">CopyRight por @Matheus Trevizani</p>
+	</footer>
 </body>
 </html>
